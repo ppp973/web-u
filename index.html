@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Under Maintenance</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+text-align:center;
+}
+
+.container{
+max-width:600px;
+padding:40px;
+border-radius:20px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(15px);
+box-shadow:0 20px 50px rgba(0,0,0,0.5);
+animation:fadeIn 1.2s ease;
+}
+
+h1{
+font-size:36px;
+margin-bottom:15px;
+}
+
+p{
+font-size:16px;
+opacity:0.9;
+margin-bottom:30px;
+}
+
+.whatsapp-btn{
+display:inline-flex;
+align-items:center;
+gap:10px;
+background:#25D366;
+color:white;
+padding:14px 30px;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.whatsapp-btn:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(0,0,0,0.5);
+}
+
+.footer{
+margin-top:25px;
+font-size:13px;
+opacity:0.7;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(20px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:600px){
+
+.container{
+margin:20px;
+padding:30px;
+}
+
+h1{
+font-size:28px;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🚧 Website Under Maintenance</h1>
+
+<p>
+Our website is currently undergoing scheduled maintenance.<br>
+It will be back online within the next <b>2 days</b>.<br><br>
+Stay updated by joining our WhatsApp channel.
+</p>
+
+<a href="https://whatsapp.com/channel/0029VbAvDSX0QeahEg4kkE3U"
+class="whatsapp-btn"
+target="_blank">
+
+📢 Join WhatsApp Channel
+
+</a>
+
+<div class="footer">
+Thank you for your patience ❤️
+</div>
+
+</div>
+
+</body>
+</html>
